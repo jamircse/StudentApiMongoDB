@@ -1,12 +1,13 @@
 # StudentApiMongoDB
 ## live preview guid  https://studentapi.jamirhossain.repl.co/
 
-#### Welcome to the StudentAPI project! This API provides endpoints to manage student information. You can perform various operations on student records such as adding, retrieving, updating, and deleting.
+#### Welcome to the StudentAPIMongoDB application! This application provides a RESTful API to manage student information using a MongoDB database. It allows you to perform basic CRUD (Create, Read, Update, Delete) operations on student records.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Technologies Used](#Technologies-Used)
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
 - [User Guide](#user-guide)
@@ -18,12 +19,18 @@
 The StudentAPI project aims to simplify the management of student data. It offers a RESTful API that allows you to interact with student records using HTTP requests.
 
 ## Features
-
 - Add new student records with details such as name, age, grade, etc.
 - Retrieve information about existing students.
 - Update student details.
 - Delete student records.
+## Technologies Used
 
+- Node.js: Backend runtime environment.
+- Express: Web application framework for Node.js.
+- MySQL: Relational database management system.
+- HTML/CSS: For the web interface.
+- JavaScript: Programming language for both backend and frontend logic.
+  
 ## Getting Started
 
 To start using the StudentAPI, follow these steps:
