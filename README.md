@@ -1,7 +1,15 @@
 # StudentApiMongoDB
 ## live preview guid  https://studentapi.jamirhossain.repl.co/
-
 #### Welcome to the StudentAPIMongoDB application! This application provides a RESTful API to manage student information using a MongoDB database. It allows you to perform basic CRUD (Create, Read, Update, Delete) operations on student records.
+This code is an example of how to create a RESTful API with Express.js and MongoDB. It creates an Express.js app that listens on port 3000 and defines a route for the /students endpoint. The timeAccessMiddleware is applied to restrict access to the /students route. The middleware checks if the current time is between 9 AM and 5 PM before allowing access to the route. If the time is outside this range, the middleware returns a 403 Forbidden error.
+
+The code also uses the cors module to enable cross-origin requests and the express.json() middleware to parse JSON in requests.
+
+To use this code, you’ll need to install the required dependencies (express, cors, mongodb) using npm. You’ll also need to set up a MongoDB database and configure the db.js file with your database connection details.
+
+I hope this helps you get started with creating your own RESTful API!
+
+
 
 ## Table of Contents
 
