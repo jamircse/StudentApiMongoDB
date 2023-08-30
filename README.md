@@ -1,5 +1,5 @@
 # StudentApiMongoDB
-## live preview guid  https://studentapimysql.jamirhossain.repl.co
+## live preview guid  https://studentapi.jamirhossain.repl.co/
 
 #### Welcome to the StudentAPI project! This API provides endpoints to manage student information. You can perform various operations on student records such as adding, retrieving, updating, and deleting.
 
